@@ -162,7 +162,7 @@ class UnityAdsModule : IAds {
         adUnitId: String,
         callbackAds: CallbackAds?
     ) {
-
+        callbackAds?.onAdFailedToLoad("UnityAds, native not available")
     }
 
     private val loadRewardsListener: IUnityAdsLoadListener = object : IUnityAdsLoadListener {
