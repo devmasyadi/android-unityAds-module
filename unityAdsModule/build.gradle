@@ -40,5 +40,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
     implementation 'com.github.devmasyadi:android-ads-manager-core:1.1.0'
-    implementation 'com.unity3d.ads:unity-ads:4.5.0'
+    implementation 'com.unity3d.ads:unity-ads:4.7.1'
 }
